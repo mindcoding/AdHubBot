@@ -6,5 +6,5 @@ import java.util.List;
 public interface Command {
     
      void runCommand(MessageReceivedEvent event, List<String> args);
-
+     String getHelp();
 }
