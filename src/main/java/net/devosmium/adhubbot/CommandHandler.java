@@ -134,7 +134,7 @@ public class CommandHandler {
         argsList.remove(0); // Remove the command
 
         // Instead of delegating the work to a switch, automatically do it via calling the mapping if it exists
-        boolean testMode = true;
+        boolean testMode = false;
         if (testMode) {
             if (event.getAuthor().getStringID().equals("118455061222260736")) {
                 if (commandMap.containsKey(commandStr))
